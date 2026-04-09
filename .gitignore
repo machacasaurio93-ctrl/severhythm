@@ -1,0 +1,37 @@
+# === Backend (Java / Maven) ===
+backend/backend/target/
+backend/backend/.mvn/
+backend/backend/*.iml
+backend/backend/.idea/
+backend/backend/.settings/
+backend/backend/.classpath
+backend/backend/.project
+backend/backend/uploads/
+
+# === Frontend (Node / Vite) ===
+backend/frontend/node_modules/
+backend/frontend/dist/
+
+# === IDE y configuración local ===
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+**/settings.local.json
+
+# === OS ===
+*.swp
+*.swo
+*~
+
+# === Documentación (se entrega aparte) ===
+*.doc
+
+# === Backups y binarios ===
+*.zip
+*.jar
+
+# === Frontend compilado dentro del backend ===
+backend/backend/src/main/resources/static/
+DiarioDesarrollo_archivos/
